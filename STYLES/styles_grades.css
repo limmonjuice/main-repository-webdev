@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #829191;
+    color: #4C5B61;
+}
+
+
+nav {
+    background-color: #4D6A6D; 
+    padding: 15px;
+    text-align: center; 
+}
+
+nav a {
+    margin: 3px;
+    color: #C5C5C5;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #C5C5C5;
+    color: #4D6A6D;
+}
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4D6A6D;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    margin: 20px 0;
+}
+
+caption {
+    font-size: 24px;
+    color: #4D6A6D;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #C5C5C5;
+}
+
+th {
+    background-color: #4D6A6D;
+    color: #C5C5C5;
+}
+
+td {
+    background-color: #C5C5C5;
+}
+
+a {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 2px solid #4D6A6D;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #4D6A6D;
+    color: #C5C5C5;
+}
+
+a.active{
+    background-color: #829191;
+}
+
