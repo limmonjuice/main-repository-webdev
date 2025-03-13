@@ -1,0 +1,36 @@
+#featured p {
+    color: darkgray;
+    font-size: large;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+p a {
+    color: #0096FF;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #00008B;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+article h3:first-of-type {
+    color: darkgray;
+    font-size: larger;
+    margin-bottom: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+footer p {
+    color: lightgrey;
+    font-size: smaller;
+    text-align: center;
+    margin-top: 16px;
+}
