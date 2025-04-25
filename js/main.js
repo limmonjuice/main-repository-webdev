@@ -3,9 +3,9 @@ const errorMsg = document.getElementById("errorMsg");
 
 document.getElementById("add").addEventListener("click", function() {
     let name = document.getElementById("utanger").value;
-    let amount = parseFloat(document.getElementById("money").value);
+    let utang = parseFloat(document.getElementById("money").value);
 
-    if (name == "" || isNaN(amount) || amount <= 0) {
+    if (name == "" || isNaN(utang) || utang <= 0) {
         errorMsg.textContent = "Name and Amount should not be blank and is not less than 1.";
         errorMsg.classList.add("error");
         return;
@@ -15,7 +15,7 @@ document.getElementById("add").addEventListener("click", function() {
     errorMsg.textContent = "";
 
     const newUtang = document.createElement("li");
-    newUtang.textContent = name + " - ₱" + amount;
+    newUtang.textContent = name + " - ₱" + utang;
     lenders.appendChild(newUtang);
 
     document.getElementById("utanger").value = "";
