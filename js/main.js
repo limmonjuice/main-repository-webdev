@@ -5,8 +5,8 @@ document.getElementById("add").addEventListener("click", function() {
     let name = document.getElementById("utanger").value;
     let amount = parseFloat(document.getElementById("money").value);
 
-    if (name == "" || isNaN(amount)) {
-        errorMsg.textContent = "Please enter valid inputs.";
+    if (name == "" || isNaN(amount) || amount <= 0) {
+        errorMsg.textContent = "Name and Amount should not be blank and is not less than 1.";
         errorMsg.classList.add("error");
         return;
     }
